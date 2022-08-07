@@ -3,6 +3,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
 }
 
 .header_logo {
@@ -16,6 +20,10 @@
     align-items: center;
     width: 40%;
     border: 1px solid lightgray;
+}
+
+.header_icon {
+    margin-right: 8px;
 }
 
 .header_inputButton {

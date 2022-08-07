@@ -25,10 +25,12 @@ function Header() {
         </div>
 
         <div className='header_icons'>
-            <VideoCallIcon />
-            <AppsIcon />
-            <NotificationsIcon />
-            <Avator />
+            <VideoCallIcon className='header_icon'/>
+            <AppsIcon className='header_icon'/>
+            <NotificationsIcon className='header_icon'/>
+            <Avator
+                alt=""
+            />
         </div>
     </div>
 )
